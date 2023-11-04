@@ -9,35 +9,10 @@ import {
   TableRow,
 
 } from "@/components/ui/table";
-
+import Receiveds from '../../../data.json';
 
 export default function Receita() {
-    const receiveds = [
-        {
-          id:'1',
-          valor: '4.500,00',
-          cliente: 'Britânia',
-          data: '05/10/2023',
-        },
-        {
-          id:'2',
-          valor: '10.800,00',
-          cliente: 'LPS Company LTDA',
-          data: '30/10/2023',
-        },
-        {
-          id:'3',
-          valor: '3.800,00',
-          cliente: 'Dohler SA',
-          data: '15/10/2023',
-        },
-        {
-          id:'4',
-          valor: '1.500,00',
-          cliente: 'Tupy LTDA',
-          data: '25/11/2023',
-        }
-      ]
+    const data = Receiveds.receiveds; 
 
   return (
     <>
@@ -65,7 +40,7 @@ export default function Receita() {
                     </div>
                     <Table>
                     <TableBody>
-                    {receiveds.map((received) => (
+                    {data.map((received) => (
                       <TableRow key={received.id}>
                         <TableCell className="font-medium items-center flex text-muted">R$ {received.valor}</TableCell>
                         <TableCell className='text-muted font-bold'>

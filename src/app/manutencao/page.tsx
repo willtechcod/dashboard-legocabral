@@ -9,40 +9,10 @@ import {
   TableRow,
 
 } from "@/components/ui/table";
-
+import Maintenances from '../../../data.json';
 
 export default function Manutencao() {
-    const maintenances = [
-        {
-          id:'1',
-          veiculo: ['Carro'],
-          placa: 'FEI-6465',
-          reparo: 'Troca de oléo',
-          date: '25/10/2023'
-        },
-        {
-          id:'2',
-          veiculo: ['Van'],
-          placa: 'FEI-6465',
-          reparo: ['Troca de oléo', ' Pneu traseiro'],
-          date: '28/10/2023'
-
-        },
-        {
-          id:'3',
-          veiculo: ['Carro'],
-          placa: 'FEI-6465',
-          reparo: 'Farol dianteiro',
-          date: '25/10/2023'
-        },
-        {
-          id:'4',
-          veiculo: ['Caminhão'],
-          placa: 'FEI-6465',
-          reparo: ['Troca de oléo', ' faixa de freios'],
-          date: '25/10/2023'
-        }
-      ]
+    const data = Maintenances.maintenances;
 
   return (
     <>
@@ -77,7 +47,7 @@ export default function Manutencao() {
                       </TableRow>
                     </TableHeader>
                     <TableBody>
-                    {maintenances.map((maintenance) => (
+                    {data.map((maintenance) => (
                       <TableRow key={maintenance.id}>
                         <TableCell className="font-medium items-center flex text-muted">
                             {maintenance.veiculo} - {maintenance.placa}

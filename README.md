@@ -1,10 +1,5 @@
-  <p align="center">
-  <img alt="MyPortfólio_Icon" src="https://i.imgur.com/EAp3zw7.png" width="30%"> 
-  </p>
-
-  
 <p align="center">
-  <img alt="meu slog pessoal" src="https://i.imgur.com/tivi61H.png" width="20%"> 
+  <img alt="meu slog pessoal" src="https://i.imgur.com/tivi61H.png" width="30%"> 
   </p>
 
 # :clipboard: Sobre o projeto

@@ -9,39 +9,10 @@ import {
   TableRow,
 
 } from "@/components/ui/table";
-
+import Drives from '../../../data.json';
 
 export default function Motoristas() {
-    const drivers = [
-        {
-          id:'1',
-          nome: 'William',
-          status:'ativo',
-          veiculo: ['Carro', ' - Caminhão', ' - Van'],
-
-        },
-        {
-          id:'2',
-          nome: 'Paulo',
-          status:'ativo',
-          veiculo: ['Van', ' - Carro'],
-
-        },
-        {
-          id:'3',
-          nome: 'Osmair',
-          status:'inativo',
-          veiculo: ['Caminhão', ' - Carro'],
-
-        },
-        {
-          id:'4',
-          nome: 'Jefferson',
-          status:'pendente',
-          veiculo: ['Carro'],
-
-        }
-      ]
+    const data = Drives.drivers;
 
   return (
     <>
@@ -76,7 +47,7 @@ export default function Motoristas() {
                       </TableRow>
                     </TableHeader>
                     <TableBody>
-                    {drivers.map((drive) => (
+                    {data.map((drive) => (
                       <TableRow key={drive.id}>
                         <TableCell className="font-medium items-center flex text-muted">{drive.nome}</TableCell>
                         <TableCell className='text-muted font-bold'>

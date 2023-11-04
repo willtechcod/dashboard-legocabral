@@ -1,36 +1,153 @@
 {
-    "rotes":[
-        {
-            "id": 1,
-            "partida": "Joinville",
-            "destino": "Jaragua do sul",
-            "motorista": "Roberto",
-            "veiculo": "Van",
-            "placa": "FEI-4676"
-          },
-          {
-            "id": 2,
-            "partida": "Joinville",
-            "destino": "São Francisco do sul",
-            "motorista": "João",
-            "veiculo": "Carro",
-            "placa": "HQI-7688"
-          },
-          {
-            "id": 3,
-            "partida": "Joinville",
-            "destino": "Itapema",
-            "motorista": "Jefferson",
-            "veiculo": "Caminhão",
-            "placa": "FEI-9492"
-          },
-          {
-            "id":4,
-            "partida": "Joinville",
-            "destino": "Curitiba",
-            "motorista": "Mario",
-            "veiculo": "Spin",
-            "placa": "FEI-4676"
-          }
-    ]
+  "routes":[
+    {
+      "id": 1,
+      "partida": "Joinville",
+      "destino": "Jaragua do sul",
+      "motorista": "Roberto",
+      "veiculo": "Van",
+      "placa": "FEI-4676"
+    },
+    {
+      "id": 2,
+      "partida": "Joinville",
+      "destino": "São Francisco do sul",
+      "motorista": "João",
+      "veiculo": "Carro",
+      "placa": "HQI-7688"
+    },
+    {
+      "id": 3,
+      "partida": "Joinville",
+      "destino": "Itapema",
+      "motorista": "Jefferson",
+      "veiculo": "Caminhão",
+      "placa": "FEI-9492"
+    },
+    {
+      "id":4,
+      "partida": "Joinville",
+      "destino": "Curitiba",
+      "motorista": "Mario",
+      "veiculo": "Spin",
+      "placa": "FEI-4676"
+    }
+  ],
+  "drivers":[
+    {
+      "id": 1,
+      "nome": "William",
+      "status": "ativo",
+      "veiculo": "Carro - Caminhão - Van"
+
+    },
+    {
+      "id": 2,
+      "nome": "Paulo",
+      "status": "ativo",
+      "veiculo": "Van - Carro"
+
+    },
+    {
+      "id": 3,
+      "nome": "Osmair",
+      "status": "inativo",
+      "veiculo": "Caminhão - Carro"
+
+    },
+    {
+      "id": 4,
+      "nome": "Jefferson",
+      "status": "pendente",
+      "veiculo": "Carro"
+
+    }
+  ],
+  "maintenances":[
+    {
+      "id": 1,
+      "veiculo": "Carro",
+      "placa": "FEI-6465",
+      "reparo": "Troca de oléo",
+      "date": "25/10/2023"
+    },
+    {
+      "id": 2,
+      "veiculo": "Van",
+      "placa": "FEI-6465",
+      "reparo": "Troca de oléo -  Pneu traseiro",
+      "date": "28/10/2023"
+
+    },
+    {
+      "id": 3,
+      "veiculo": "Carro",
+      "placa": "FEI-6465",
+      "reparo": "Farol dianteiro",
+      "date": "25/10/2023"
+    },
+    {
+      "id": 4,
+      "veiculo": "Caminhão",
+      "placa": "FEI-6465",
+      "reparo": "Troca de oléo - faixa de freios",
+      "date": "25/10/2023"
+    }
+  ],
+  "expenses":[
+    {
+      "id":1,
+      "valor": "450,00",
+      "veiculo": "Carro",
+      "placa": "FEI-33638",
+      "reparo": "Faixa de freios"
+    },
+    {
+      "id":2,
+      "valor": "1.800,00",
+      "veiculo": "Carro",
+      "placa": "FEI-33638",
+      "reparo": "Farois dianteiros"
+    },
+    {
+      "id":3,
+      "valor": "380,00",
+      "veiculo": "Caminhão",
+      "placa": "FEI-33638",
+      "reparo": "Pneu"
+    },
+    {
+      "id":4,
+      "valor": "1.500,00",
+      "veiculo": "Van",
+      "placa": "FEI-33638",
+      "reparo": "Troca de Óleo"
+    }
+  ],
+  "receiveds":[
+    {
+      "id": 1,
+      "valor": "4.500,00",
+      "cliente": "Britânia",
+      "data": "05/10/2023"
+    },
+    {
+      "id": 2,
+      "valor": "10.800,00",
+      "cliente": "LPS Company LTDA",
+      "data": "30/10/2023"
+    },
+    {
+      "id": 3,
+      "valor": "3.800,00",
+      "cliente": "Dohler SA",
+      "data": "15/10/2023"
+    },
+    {
+      "id": 4,
+      "valor": "1.500,00",
+      "cliente": "Tupy LTDA",
+      "data": "25/11/2023"
+    }
+  ]
 }

@@ -10,42 +10,10 @@ import {
 
 } from "@/components/ui/table";
 import Doted from "../relatorios/components/doted";
+import Rotes from '../../../data.json';
 
 export default function Rotas() {
-    const rotes = [
-        {
-          id:'1',
-          partida: 'Joinville',
-          destino:'Jaragua do sul',
-          motorista: 'Roberto',
-          veiculo: 'Van',
-          placa: 'FEI-4676'
-        },
-        {
-          id:'2',
-          partida: 'Joinville',
-          destino:'São Francisco do sul',
-          motorista: 'João',
-          veiculo: 'Carro',
-          placa: 'HQI-7688'
-        },
-        {
-          id:'3',
-          partida: 'Joinville',
-          destino:'Itapema',
-          motorista: 'Jefferson',
-          veiculo: 'Caminhão',
-          placa: 'FEI-9492'
-        },
-        {
-          id:'4',
-          partida: 'Joinville',
-          destino:'Curitiba',
-          motorista: 'Mario',
-          veiculo: 'Spin',
-          placa: 'FEI-4676'
-        }
-      ]
+    const data =Rotes.routes;
 
   return (
     <>
@@ -80,7 +48,7 @@ export default function Rotas() {
                       </TableRow>
                     </TableHeader>
                     <TableBody>
-                    {rotes.map((rote) => (
+                    {data.map((rote) => (
                       <TableRow key={rote.id}>
                         <TableCell className="font-medium items-center flex text-muted"> {<Doted/> }  {rote.partida} - {rote.destino}</TableCell>
                         <TableCell className='text-muted font-bold'>{rote.motorista}</TableCell>

@@ -9,39 +9,11 @@ import {
   TableRow,
 
 } from "@/components/ui/table";
-import data from '../../../data.json';
+import Expenses from '../../../data.json';
+
 
 export default function Despesa() {
-    const expenses = [
-        {
-          id:'1',
-          valor: '450,00',
-          veiculo: 'Carro',
-          placa: 'FEI-33638',
-          reparo: 'Faixa de freios',
-        },
-        {
-          id:'2',
-          valor: '1.800,00',
-          veiculo: 'Carro',
-          placa: 'FEI-33638',
-          reparo: 'Farois dianteiros',
-        },
-        {
-          id:'3',
-          valor: '380,00',
-          veiculo: 'Caminhão',
-          placa: 'FEI-33638',
-          reparo: 'Pneu',
-        },
-        {
-          id:'4',
-          valor: '1.500,00',
-          veiculo: 'Van',
-          placa: 'FEI-33638',
-          reparo: 'Troca de Óleo',
-        }
-      ]
+    const data = Expenses.expenses;
 
   return (
     <>
@@ -69,7 +41,7 @@ export default function Despesa() {
                     </div>
                     <Table>
                     <TableBody>
-                    {expenses.map((expense) => (
+                    {data.map((expense) => (
                       <TableRow key={expense.id}>
                         <TableCell className="font-medium items-center flex text-muted">R$ {expense.valor}</TableCell>
                         <TableCell className='text-muted font-bold'>

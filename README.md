@@ -15,7 +15,7 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 <br>
 <p align="center">
-  <img alt="MyLinks" src="github/desafio.gif" width="70%"> 
+  <img alt="MyLinks" src="github/capa.png" width="70%"> 
   </p>
 
 # 🔗 Acesse o site com o link abaixo.

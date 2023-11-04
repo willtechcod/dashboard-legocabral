@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+  <p align="center">
+  <img alt="MyPortfólio_Icon" src="https://i.imgur.com/EAp3zw7.png" width="30%"> 
+  </p>
 
-## Getting Started
+  
+<p align="center">
+  <img alt="MyLinks" src="https://i.imgur.com/tivi61H.png" width="70%"> 
+  </p>
 
-First, run the development server:
+# :clipboard: Sobre o projeto
+
+Projeto realizado para teste de conhecimentos com programação web.
+
+Abaixo podemos ver o resultado final do projeto. Espero que gostem!
+
+<br>
+<p align="center">
+  <img alt="MyLinks" src="github/desafio.gif" width="70%"> 
+  </p>
+
+# 🔗 Acesse o site com o link abaixo.
+
+- [Dashboard | Lego Cabral](https://desafio-nine.vercel.app/)
+
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind css](https://tailwindcss.com/)
+- [Shadcn/ui](https://ui.shadcn.com/docs/installation/next)
+
+
+## 🌐 Para iniciarlizar o projeto utilize o comando abaixo:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+#Clonando o repositório do Github:
+$ git clone https://github.com/willtechcod/dashboard-legocabral.git
+
+#Ou Crie um novo projeto:
+$ npx create-next-app@latest my-app --typescript --tailwind --eslint
+
+#Acessar pasta dashboard-legocabral:
+$ cd dashboard-legocabral
+
+#Instalar alguns packages:
+
+$ npx shadcn-ui@latest init  
+
+#Inicializar pasta dashboard-legocabral:
+$ npm run dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">
+  <img src="./GitHub/Icon.png" width="15%">
+  </p>

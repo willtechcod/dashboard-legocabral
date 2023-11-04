@@ -1,0 +1,36 @@
+{
+    "rotes":[
+        {
+            "id": 1,
+            "partida": "Joinville",
+            "destino": "Jaragua do sul",
+            "motorista": "Roberto",
+            "veiculo": "Van",
+            "placa": "FEI-4676"
+          },
+          {
+            "id": 2,
+            "partida": "Joinville",
+            "destino": "São Francisco do sul",
+            "motorista": "João",
+            "veiculo": "Carro",
+            "placa": "HQI-7688"
+          },
+          {
+            "id": 3,
+            "partida": "Joinville",
+            "destino": "Itapema",
+            "motorista": "Jefferson",
+            "veiculo": "Caminhão",
+            "placa": "FEI-9492"
+          },
+          {
+            "id":4,
+            "partida": "Joinville",
+            "destino": "Curitiba",
+            "motorista": "Mario",
+            "veiculo": "Spin",
+            "placa": "FEI-4676"
+          }
+    ]
+}

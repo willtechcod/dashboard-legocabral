@@ -15,7 +15,7 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
 <br>
 <p align="center">
-  <img alt="MyLinks" src="github/capa.png" width="70%"> 
+  <img alt="MyLinks" src="github/capa.png" width="95%"> 
   </p>
 
 # 🔗 Acesse o site com o link abaixo.
@@ -53,5 +53,5 @@ $ npm run dev
 ##
 
 <p align="center">
-  <img src="./GitHub/Icon.png" width="15%">
+  <img src="github/Icon.png" width="15%">
   </p>

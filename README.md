@@ -4,7 +4,7 @@
 
   
 <p align="center">
-  <img alt="MyLinks" src="https://i.imgur.com/tivi61H.png" width="70%"> 
+  <img alt="meu slog pessoal" src="https://i.imgur.com/tivi61H.png" width="20%"> 
   </p>
 
 # :clipboard: Sobre o projeto
